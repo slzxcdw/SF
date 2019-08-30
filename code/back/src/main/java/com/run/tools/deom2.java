@@ -32,7 +32,7 @@ public class deom2{
                     t2.add(0.0);
                     t2.add(0.0);
                     t2.add(0.0);
-                    addnewsoundeffects("E:\\1.mp3",t1,"E:\\2-n.mp3",t2);
+                    //addnewsoundeffects("E:\\1.mp3",t1,"E:\\2-n.mp3",t2);
                 } catch (Exception e) {
            e.printStackTrace();
             }
@@ -327,7 +327,7 @@ public class deom2{
             errorStream.close();
         }
     }*/
-    public static void addsoundeffects(String music1, List<String> musicset,String dest,List<Double> lasttime)
+    public static void addoldsoundeffects(String music1, List<String> musicset,String dest,List<Double> lasttime)
             throws Exception {
         List<String> command = new ArrayList<String>();
         Double time=processFLT(music1);
@@ -801,7 +801,7 @@ public class deom2{
             errorStream.close();
         }
     }
-    public static void addnewsoundeffects(String music1, List<String> musicset,String dest,List<Double> lasttime)
+    public static void addsoundeffects(String music1, List<String> musicset,String dest,List<Double> lasttime)
             throws Exception {
         List<String> command = new ArrayList<String>();
         Double time=processFLT(music1);
